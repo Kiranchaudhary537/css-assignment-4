@@ -20,15 +20,15 @@ section {
 }
 
 .middle-image {
-  border: 3px solid black;
-  height: 233px;
-  margin: 20px auto;
   width: 950px;
+  height: 260px;
+  border: 3px solid black;
+  margin: 20px auto;
 }
 
 .bottom-image {
   margin: 20px auto;
-  height: 358px;
+  height: 350px;
   width: 950px;
 }
 
@@ -42,9 +42,9 @@ section {
 /* Used Clip-path to set bottom-most position. */
 .middle-image img {
   width: 100%;
-  height: 218%;
-  margin-top: -32%;
-  clip-path: inset(60% 0% 0% 0%);
+  height: 235%;
+  margin-top: -40%;
+  clip-path: inset(62% 0% 0% 0%);
 }
 
 .image {
