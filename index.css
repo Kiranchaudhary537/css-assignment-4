@@ -6,39 +6,41 @@
 body {
   padding: 20px;
 }
-
+/* Verically Stack */
 section {
   display: flex;
   flex-direction: column;
 }
 
-.a {
+.top-image {
   margin: 20px auto;
   height: 200px;
   width: 950px;
   border: 1px solid black;
 }
 
-.b {
+.middle-image {
   border: 3px solid black;
   height: 233px;
   margin: 20px auto;
   width: 950px;
 }
 
-.c {
+.bottom-image {
   margin: 20px auto;
   height: 358px;
   width: 950px;
 }
 
-.a img {
+/* Used Clip-path to set top-most position. */
+.top-image img {
   width: 100%;
   height: 238%;
   clip-path: inset(0% -1% 64% 0%);
 }
 
-.b img {
+/* Used Clip-path to set bottom-most position. */
+.middle-image img {
   width: 100%;
   height: 218%;
   margin-top: -32%;
